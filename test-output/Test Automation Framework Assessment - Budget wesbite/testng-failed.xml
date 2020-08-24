@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Test Automation Framework Assessment - Budget wesbite]">
+  <parameter name="driverPort" value="5555"/>
+  <parameter name="driverHost" value="localhost"/>
+  <parameter name="remoteDriver" value="No"/>
+  <parameter name="browser_os" value="chrome_windows"/>
+  <parameter name="url" value="https://www.budget.com/"/>
+  <test verbose="3" name="Sample Cucumber Test(failed)">
+    <classes>
+      <class name="testRunner.Runner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- testRunner.Runner -->
+    </classes>
+  </test> <!-- Sample Cucumber Test(failed) -->
+</suite> <!-- Failed suite [Test Automation Framework Assessment - Budget wesbite] -->

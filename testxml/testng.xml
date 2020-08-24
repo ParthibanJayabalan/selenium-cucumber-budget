@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Automation framework - Assessment" verbose="3">
+	<parameter name="remoteDriver" value="No"/>
+    <parameter name="browser_os" value="chrome_windows"/>
+    <parameter name="url" value="https://www.budget.com"/>
+    <test name="A sample cucumber test - Budget">
+		<packages>
+            <package name="testRunner"/>
+        </packages>
+    </test>
+</suite>

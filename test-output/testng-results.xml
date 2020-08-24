@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Browser: CHROME , Operating System: WINDOWS</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Navigated to Home page of Budget car rental website successfully&emsp;</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Entered the journey details on home page&emsp;<a href=".\ScreenShot\feature_A sample cucumber test - Budget_1.png" target="_blank" >[ScreenShot]</a></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Navigated to Select Vehicle page successfully&emsp;</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Refined the search results and captured the cheapest car details.&emsp;<a href=".\ScreenShot\feature_A sample cucumber test - Budget_2.png" target="_blank" >[ScreenShot]</a></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Navigated to Extras page successfully&emsp;</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-result"><br><font color="green"><strong> Selected the cheapest SUV car and verified that the journey details and details of selected car are carried over as expected&emsp;<a href=".\ScreenShot\feature_A sample cucumber test - Budget_3.png" target="_blank" >[ScreenShot]</a> </strong></font> </div>&emsp;]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Automation framework - Assessment" duration-ms="64514" started-at="2020-08-24T19:42:03Z" finished-at="2020-08-24T19:43:07Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@1a5fe33]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="A sample cucumber test - Budget" duration-ms="64514" started-at="2020-08-24T19:42:03Z" finished-at="2020-08-24T19:43:07Z">
+      <class name="testRunner.Hooks">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testRunner.Hooks@7740a2]" name="beforeSuite" is-config="true" duration-ms="218" started-at="2020-08-24T19:42:03Z" finished-at="2020-08-24T19:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testRunner.Hooks@7740a2]" name="afterSuite" is-config="true" duration-ms="2524" started-at="2020-08-24T19:43:07Z" finished-at="2020-08-24T19:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testRunner.Hooks -->
+      <class name="testRunner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.Runner@1a5fe33]" name="setUpClass" is-config="true" duration-ms="273" started-at="2020-08-24T19:42:03Z" finished-at="2020-08-24T19:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@1a5fe33]" name="feature" duration-ms="57507" started-at="2020-08-24T19:42:10Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-24T19:43:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A sample behavior driven framework to assess Budget website]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Browser: CHROME , Operating System: WINDOWS</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Navigated to Home page of Budget car rental website successfully&emsp;</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Entered the journey details on home page&emsp;<a href=".\ScreenShot\feature_A sample cucumber test - Budget_1.png" target="_blank" >[ScreenShot]</a></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Navigated to Select Vehicle page successfully&emsp;</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Refined the search results and captured the cheapest car details.&emsp;<a href=".\ScreenShot\feature_A sample cucumber test - Budget_2.png" target="_blank" >[ScreenShot]</a></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Navigated to Extras page successfully&emsp;</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-result"><br><font color="green"><strong> Selected the cheapest SUV car and verified that the journey details and details of selected car are carried over as expected&emsp;<a href=".\ScreenShot\feature_A sample cucumber test - Budget_3.png" target="_blank" >[ScreenShot]</a> </strong></font> </div>&emsp;]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.Runner@1a5fe33]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-08-24T19:43:07Z" finished-at="2020-08-24T19:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.Runner -->
+    </test> <!-- A sample cucumber test - Budget -->
+  </suite> <!-- Test Automation framework - Assessment -->
+</testng-results>
